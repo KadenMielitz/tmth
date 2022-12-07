@@ -16,7 +16,8 @@ public class ModItems {
             ()-> new Item(new Item.Properties()));
     public static  final RegistryObject<Item> Steel_Dust = ITEMS.register("steel_dust",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.TMTH_TAB_MATERIALS)));
-
+    public static  final RegistryObject<Item> Coal_Dust = ITEMS.register("coal_dust",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.TMTH_TAB_MATERIALS)));
 
 
 

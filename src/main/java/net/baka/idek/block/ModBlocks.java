@@ -28,7 +28,7 @@ public static final DeferredRegister<Block> BLOCKS =
   //      () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.IDEK_TAB_MATERIALS);
 
     public  static final  RegistryObject<Block> Steel_Block = registerBlock("steel_block",
-                  () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.IDEK_TAB_MATERIALS);
+                  () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TMTH_TAB_MATERIALS);
 
 
 
