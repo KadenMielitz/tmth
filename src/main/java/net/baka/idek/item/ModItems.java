@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, idek.MOD_ID);
-//
+///
     public static  final RegistryObject<Item> Steel = ITEMS.register("steel",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.IDEK_TAB_MATERIALS)));
    // public static final RegistryObject<Item> Jaxrite = ITEMS.register("jaxrite",
