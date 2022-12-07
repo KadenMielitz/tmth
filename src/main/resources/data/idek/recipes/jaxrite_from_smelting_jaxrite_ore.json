@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "group": "jaxrite",
+  "group": "steel",
   "ingredient": {
     "item": "idek:jaxrite_ore"
   },
