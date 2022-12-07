@@ -11,7 +11,15 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, idek.MOD_ID);
 
     public static  final RegistryObject<Item> Steel = ITEMS.register("steel",
-            ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.IDEK_TAB_MATERIALS)));
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.TMTH_TAB_MATERIALS)));
+    public static  final RegistryObject<Item> TMWLOGO = ITEMS.register("tmwlogo",
+            ()-> new Item(new Item.Properties()));
+    public static  final RegistryObject<Item> Steel_Dust = ITEMS.register("steel_dust",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.TMTH_TAB_MATERIALS)));
+
+
+
+
    // public static final RegistryObject<Item> Jaxrite = ITEMS.register("jaxrite",
             //() -> new Item(new Item.Properties().tab(ModCreativeModeTab.IDEK_TAB_MATERIALS)));
     //public static final RegistryObject<Item> Jaxrite_Sword = ITEMS.register("jaxrite_sword",
