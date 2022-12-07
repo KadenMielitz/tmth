@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "idek:jaxrite_block"
+    }
+  ],
+  "result": {
+    "item": "idek:jaxrite",
+    "count": 9
+  }
+}

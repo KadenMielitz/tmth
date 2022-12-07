@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "idek:jaxrite_block"
+    }
+  },
+  "result": {
+    "item": "idek:compressed_jaxrite_block"
+  }
+}

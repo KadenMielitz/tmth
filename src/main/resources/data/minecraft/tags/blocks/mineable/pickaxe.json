@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "idek:jaxrite_ore",
+    "idek:jaxrite_block",
+    "idek:compressed_jaxrite_block",
+    "idek:steel_block"
+  ]
+}

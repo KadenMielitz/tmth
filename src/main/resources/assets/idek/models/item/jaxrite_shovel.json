@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "idek:item/jaxrite_shovel"
+  }
+}
