@@ -1,7 +1,7 @@
 package net.baka.idek.block;
 
 
-import net.baka.idek.block.custom.HurtyBlock;
+import net.baka.idek.block.custom.RedHotSteelBlock;
 import net.baka.idek.idek;
 import net.baka.idek.item.ModCreativeModeTab;
 import net.baka.idek.item.ModItems;
@@ -30,8 +30,8 @@ public static final DeferredRegister<Block> BLOCKS =
 
     public  static final  RegistryObject<Block> Steel_Block = registerBlock("steel_block",
                   () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TMTH_TAB_MATERIALS);
-    public static final RegistryObject<Block> Hurty_Block = registerBlock("hurty_block",
-            () -> new HurtyBlock(BlockBehaviour.Properties.of(Material.STONE)
+    public static final RegistryObject<Block> RED_HOT_STEEL = registerBlock("red_hot_steel",
+            () -> new RedHotSteelBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TMTH_TAB_MATERIALS);
 
 

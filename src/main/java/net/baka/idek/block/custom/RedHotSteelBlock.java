@@ -9,8 +9,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class HurtyBlock extends Block {
-    public HurtyBlock(Properties properties) {
+public class RedHotSteelBlock extends Block {
+    public RedHotSteelBlock(Properties properties) {
         super(properties);
     }
 
