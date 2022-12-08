@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "idek:block/hurty_block"
+    "all": "idek:block/red_hot_steel"
   }
 }

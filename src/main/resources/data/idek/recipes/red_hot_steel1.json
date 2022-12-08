@@ -1,10 +1,10 @@
 {
   "type": "minecraft:blasting",
-  "group": "jaxrite",
+  "group": "steel",
   "ingredient": {
-    "item": "idek:steel_dust"
+    "item": "idek:steel_block"
   },
-  "result": "idek:steel",
+  "result": "idek:red_hot_steel",
   "experience": 0.1,
   "cookingtime": 400
 }
