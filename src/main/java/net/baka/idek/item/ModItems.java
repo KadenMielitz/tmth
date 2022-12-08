@@ -21,6 +21,7 @@ public class ModItems {
 
 
 
+
    // public static final RegistryObject<Item> Jaxrite = ITEMS.register("jaxrite",
             //() -> new Item(new Item.Properties().tab(ModCreativeModeTab.IDEK_TAB_MATERIALS)));
     //public static final RegistryObject<Item> Jaxrite_Sword = ITEMS.register("jaxrite_sword",

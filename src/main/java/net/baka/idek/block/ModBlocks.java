@@ -1,6 +1,7 @@
 package net.baka.idek.block;
 
 
+import net.baka.idek.block.custom.HurtyBlock;
 import net.baka.idek.idek;
 import net.baka.idek.item.ModCreativeModeTab;
 import net.baka.idek.item.ModItems;
@@ -20,7 +21,7 @@ public class ModBlocks {
 public static final DeferredRegister<Block> BLOCKS =
         DeferredRegister.create(ForgeRegistries.BLOCKS, idek.MOD_ID);
 //jaxrite
-//public  static final  RegistryObject<Block> Jaxrite_Block = registerBlock("jaxrite_block",
+// public  static final  RegistryObject<Block> Jaxrite_Block = registerBlock("jaxrite_block",
   //      () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.IDEK_TAB_MATERIALS);
 //public  static final  RegistryObject<Block> Jaxrite_Ore = registerBlock("jaxrite_ore",
   //      () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.IDEK_TAB_MATERIALS);
@@ -29,7 +30,9 @@ public static final DeferredRegister<Block> BLOCKS =
 
     public  static final  RegistryObject<Block> Steel_Block = registerBlock("steel_block",
                   () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TMTH_TAB_MATERIALS);
-
+    public static final RegistryObject<Block> Hurty_Block = registerBlock("hurty_block",
+            () -> new HurtyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TMTH_TAB_MATERIALS);
 
 
 private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
